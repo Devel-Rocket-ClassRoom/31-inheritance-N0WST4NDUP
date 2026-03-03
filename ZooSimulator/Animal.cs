@@ -17,10 +17,5 @@ abstract class Animal
 
     public void MakeSound() => Console.WriteLine($"{Name}: {_sound}");
 
-    public void DisplayInfo()
-    {
-        Console.WriteLine(
-            $"" + "\n" +
-        );
-    }
+    public void DisplayInfo() => Console.WriteLine($"이름: {Name}, 나이: {Age}살");
 }
